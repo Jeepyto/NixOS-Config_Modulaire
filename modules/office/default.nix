@@ -1,0 +1,6 @@
+{ ... }:
+{
+  imports = [
+    ./libre-office.nix
+  ];
+}
