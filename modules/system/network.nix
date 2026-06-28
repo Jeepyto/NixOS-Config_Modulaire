@@ -29,6 +29,7 @@ in
       enable = true;
       settings = {
         listen-address = "127.0.0.1";
+        bind-interfaces = true;
         cache-size = 1000;
         no-resolv = true;
         server = [ "1.1.1.1" "8.8.8.8" "8.8.4.4" ];
