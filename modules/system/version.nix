@@ -13,9 +13,12 @@ in
   };
 
   config = mkIf cfg.enable {
-    nix.settings.experimental-features = [ "nix-command" "flakes" ];
+    nix.settings = {
+      experimental-features = [ "nix-command" "flakes" ];
+      substituters          = [ "https://attic.xuyh0120.win/lantian" ];
+      trusted-public-keys   = [ "lantian:EeAUQ+W+6r7EtwnmYjeVwx5kOGEBpjlBfPlzGlTNvHc=" ];
+    };
     nixpkgs.config.allowUnfree = true;
-    # stateVersion : date de la première installation, ne pas changer
     system.stateVersion = "26.05";
   };
 }
