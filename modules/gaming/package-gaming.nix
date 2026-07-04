@@ -19,7 +19,8 @@ in
       vkbasalt
       vulkan-tools
       umu-launcher
-      wineWow64Packages.stable      
+      wineWow64Packages.stable
+      protonplus      
     ];
   };
 }

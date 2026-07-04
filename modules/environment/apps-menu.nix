@@ -40,6 +40,7 @@ in
             translate = false;     
             apps = [
               "net.lutris.Lutris1.desktop"
+              "com.heroicgameslauncher.hgl.desktop"
               "faugus-launcher.desktop"
               "winetricks.desktop"
             ];
