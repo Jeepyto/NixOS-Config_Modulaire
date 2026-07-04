@@ -15,5 +15,6 @@
     ./tx-update.nix
     ./user.nix
     ./version.nix
+    ./flatpak.nix
   ];
 }
