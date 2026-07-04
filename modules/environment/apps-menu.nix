@@ -39,6 +39,7 @@ in
             name = "Gaming";       
             translate = false;     
             apps = [
+              "net.lutris.Lutris1.desktop"
               "faugus-launcher.desktop"
               "winetricks.desktop"
             ];
