@@ -6,5 +6,6 @@
     ./mangohud.nix
     ./faugus.nix
     ./game-performance.nix
+    ./lutris.nix
   ];
 }
