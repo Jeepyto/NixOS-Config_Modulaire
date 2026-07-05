@@ -7,5 +7,6 @@
     ./faugus.nix
     ./game-performance.nix
     ./lutris.nix
+    ./heroic.nix
   ];
 }

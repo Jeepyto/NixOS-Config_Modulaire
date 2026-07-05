@@ -39,9 +39,10 @@ in
             name = "Gaming";       
             translate = false;     
             apps = [
-              "net.lutris.Lutris1.desktop"
+              "net.lutris.Lutris.desktop"
               "com.heroicgameslauncher.hgl.desktop"
               "faugus-launcher.desktop"
+              "com.vysp3r.ProtonPlus.desktop"
               "winetricks.desktop"
             ];
           };
