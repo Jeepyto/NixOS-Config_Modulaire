@@ -32,8 +32,8 @@ in
                     plugin = librnnoise_ladspa
                     label = noise_suppressor_mono
                     control = {
-                      "VAD Threshold (%)" = 50.0
-                      "VAD Grace Period (ms)" = 200
+                      "VAD Threshold (%)" = 80.0
+                      "VAD Grace Period (ms)" = 400
                       "Retroactive VAD Grace (ms)" = 0
                     }
                   }
