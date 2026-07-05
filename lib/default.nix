@@ -8,7 +8,7 @@
   tx.dev.virtualMachine.enable = true;
 
   tx.gaming.steam.enable = true;
-  tx.gaming.faugus.enable = true;
+  tx.gaming.faugus.enable = false;
   tx.gaming.lutris.enable = true;
   tx.gaming.heroic.enable = true;
   
