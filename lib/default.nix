@@ -6,6 +6,7 @@
   tx.dev.dbeaver.enable = true;
   tx.dev.tigervnc.enable = true;
   tx.dev.virtualMachine.enable = true;
+  tx.dev.anydesk.enable = true;
 
   tx.gaming.steam.enable = true;
   tx.gaming.faugus.enable = false;

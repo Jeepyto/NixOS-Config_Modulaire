@@ -5,5 +5,6 @@
     ./vscode.nix
     ./tiger-vnc.nix
     ./virtual-machine.nix
+    ./anydesk.nix
   ];
 }
