@@ -28,7 +28,7 @@ in
 
   config = mkIf cfg.enable {
     # Kernel CachyOS
-    boot.kernelPackages = pkgs.cachyosKernels.linuxPackages-cachyos-lts; 
+    boot.kernelPackages = pkgs.cachyosKernels.linuxPackages-cachyos-latest; 
 
     boot.kernelModules = [ "ntsync" "tcp_bbr" ];
 
