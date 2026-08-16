@@ -83,7 +83,7 @@ in
 
       services.displayManager.autoLogin = mkIf cfg.autoLogin {
         enable = true;
-        user = "jeepy";
+        user = "jeepyto";
       };
 
       programs.dconf.enable = true;

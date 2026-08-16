@@ -32,11 +32,11 @@ in
 
     system.activationScripts.vscodeArgvJson = {
       text = ''
-        mkdir -p /home/jeepy/.vscode
-        if [ ! -e /home/jeepy/.vscode/argv.json ]; then
-          cp ${argvJson} /home/jeepy/.vscode/argv.json
-          chown jeepy:users /home/jeepy/.vscode/argv.json
-          chmod u+w /home/jeepy/.vscode/argv.json
+        mkdir -p /home/jeepyto/.vscode
+        if [ ! -e /home/jeepyto/.vscode/argv.json ]; then
+          cp ${argvJson} /home/jeepyto/.vscode/argv.json
+          chown jeepyto:users /home/jeepyto/.vscode/argv.json
+          chmod u+w /home/jeepyto/.vscode/argv.json
         fi
       '';
     };

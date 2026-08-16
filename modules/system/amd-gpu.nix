@@ -23,7 +23,7 @@ in
     };
 
     environment.variables = {
-      MESA_SHADER_CACHE_MAX_SIZE = "12G";
+      MESA_SHADER_CACHE_MAX_SIZE = "16G";
       LIBVA_DRIVER_NAME = "radeonsi";
     };
   };

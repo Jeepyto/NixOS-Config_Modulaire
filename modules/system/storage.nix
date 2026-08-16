@@ -29,7 +29,7 @@ in
     services.fstrim.enable = true;
     
     # Disque secondaire de jeux (montage automatique au boot)
-    fileSystems."/run/media/jeepy/data" = {
+    fileSystems."/run/media/jeepyto/data" = {
       device  = "/dev/disk/by-uuid/1a53a236-23a9-4332-a675-49cf76f3658f";
       fsType  = "ext4";
       options = [ "defaults" "nofail" ];

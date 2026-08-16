@@ -50,11 +50,11 @@ in
 
     system.activationScripts.fastfetchConfig = {
       text = ''
-        mkdir -p /home/jeepy/.config/fastfetch
-        if [ ! -e /home/jeepy/.config/fastfetch/config.jsonc ]; then
-          cp ${fastfetchConfig} /home/jeepy/.config/fastfetch/config.jsonc
-          chown -R jeepy:users /home/jeepy/.config/fastfetch
-          chmod u+w /home/jeepy/.config/fastfetch/config.jsonc
+        mkdir -p /home/jeepyto/.config/fastfetch
+        if [ ! -e /home/jeepyto/.config/fastfetch/config.jsonc ]; then
+          cp ${fastfetchConfig} /home/jeepyto/.config/fastfetch/config.jsonc
+          chown -R jeepyto:users /home/jeepyto/.config/fastfetch
+          chmod u+w /home/jeepyto/.config/fastfetch/config.jsonc
         fi
       '';
     };

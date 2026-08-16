@@ -51,14 +51,14 @@ let
     fps_value=30,60
     custom_text=-
     exec=echo "NixOS | $(uname -r)"
-    output_folder=/home/jeepy/.local/share/mangohud-logs
+    output_folder=/home/jeepyto/.local/share/mangohud-logs
     log_duration=30
     log_interval=100
     toggle_logging=Shift_L+F2
     blacklist=zenity,protonplus,lsfg-vk-ui,bazzar,gnome-calculator,pamac-manager,lact,ghb,bitwig-studio,ptyxis,yumex,gnome-calculator
   '';
 
-  mangohudUserConfigPath = "/home/jeepy/.config/MangoHud/MangoHud.conf";
+  mangohudUserConfigPath = "/home/jeepyto/.config/MangoHud/MangoHud.conf";
 in
 {
   options.tx.configuration.mangohudConfig.enable = mkOption {
@@ -75,7 +75,7 @@ in
         mkdir -p $(dirname ${mangohudUserConfigPath})
         if [ ! -e "${mangohudUserConfigPath}" ]; then
           cp ${mangohudConfTemplate} "${mangohudUserConfigPath}"
-          chown jeepy:users "${mangohudUserConfigPath}"
+          chown jeepyto:users "${mangohudUserConfigPath}"
           chmod u+w "${mangohudUserConfigPath}"
         fi
       '';

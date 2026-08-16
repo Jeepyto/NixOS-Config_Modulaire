@@ -41,7 +41,7 @@ in
       spice-protocol
     ];
 
-    users.users.jeepy.extraGroups = [ "kvm" "libvirtd" ];
+    users.users.jeepyto.extraGroups = [ "kvm" "libvirtd" ];
 
     services.avahi.enable = mkDefault true;
     

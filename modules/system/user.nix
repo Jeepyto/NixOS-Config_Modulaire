@@ -13,7 +13,7 @@ in
   };
 
   config = mkIf cfg.enable {
-    users.users."jeepy" = {
+    users.users."jeepyto" = {
       isNormalUser = true;
       description  = "Jeepyto Sajkrohn";
       extraGroups  = [ "networkmanager" "wheel" ];
