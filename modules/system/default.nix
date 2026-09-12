@@ -16,5 +16,6 @@
     ./user.nix
     ./version.nix
     ./flatpak.nix
+    ./razer.nix
   ];
 }

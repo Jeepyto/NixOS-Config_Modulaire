@@ -21,4 +21,7 @@
   tx.studio.blender.enable = false;
   
   tx.utilitaires.gparted.enable = false;
+
+  tx.hardware.openrazer.enable = false;
+
 }
