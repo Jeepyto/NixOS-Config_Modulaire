@@ -29,6 +29,7 @@ let
       "tx.studio.freecad.enable"
       "tx.studio.blender.enable"
       "tx.utilitaires.gparted.enable"
+      "tx.hardware.openrazer.enable"
     )
     OPTION_LABELS=(
       "Discord"
@@ -47,6 +48,7 @@ let
       "FreeCAD"
       "Blender"
       "GParted"
+      "OpenRazer"
     )
     if ! command -v ${pkgs.gum}/bin/gum >/dev/null 2>&1; then
       echo -e "''${RED}gum est introuvable.''${NC}"
