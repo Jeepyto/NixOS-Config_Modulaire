@@ -8,5 +8,6 @@
     ./game-performance.nix
     ./lutris.nix
     ./heroic.nix
+    ./xivlauncher.nix
   ];
 }

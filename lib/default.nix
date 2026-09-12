@@ -12,6 +12,7 @@
   tx.gaming.faugus.enable = false;
   tx.gaming.lutris.enable = false;
   tx.gaming.heroic.enable = false;
+  tx.gaming.ffxiv.enable = false;
   
   tx.office.libreOffice.enable = false;
   

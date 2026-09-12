@@ -30,6 +30,7 @@ let
       "tx.studio.blender.enable"
       "tx.utilitaires.gparted.enable"
       "tx.hardware.openrazer.enable"
+      "tx.gaming.ffxiv.enable"
     )
     OPTION_LABELS=(
       "Discord"
@@ -49,6 +50,7 @@ let
       "Blender"
       "GParted"
       "OpenRazer"
+      "FFXIV (XIVLauncher)"
     )
     if ! command -v ${pkgs.gum}/bin/gum >/dev/null 2>&1; then
       echo -e "''${RED}gum est introuvable.''${NC}"
